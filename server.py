@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 
 app = Flask(__name__)
-model = load_model("2025.h5")
+model = load_model("retina_guard_cnn_v1_acc99_4.h5")
 
 class_labels = ["CNV", "DME", "Drusen", "Normal"]
 
